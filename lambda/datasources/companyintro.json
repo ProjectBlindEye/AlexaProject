@@ -1,0 +1,25 @@
+{
+    "longTextTemplateData": {
+        "type": "object",
+        "objectId": "longTextSample",
+        "properties": {
+            "backgroundImage": {
+                "contentDescription": null,
+                "smallSourceUrl": null,
+                "largeSourceUrl": null,
+                "sources": [
+                    {
+                        "url": "PICTUREURL",
+                        "size": "large"
+                    }
+                ]
+            },
+            "textContent": {
+                "primaryText": {
+                    "type": "PlainText",
+                    "text": "My Text"
+                }
+            }
+        }
+    }
+}

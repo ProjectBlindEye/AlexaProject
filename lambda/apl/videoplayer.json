@@ -1,0 +1,145 @@
+{
+    "type": "APL",
+    "version": "1.8",
+    "license": "Copyright 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.\nSPDX-License-Identifier: LicenseRef-.amazon.com.-AmznSL-1.0\nLicensed under the Amazon Software License  http://aws.amazon.com/asl/",
+    "import": [
+        {
+            "name": "alexa-layouts",
+            "version": "1.4.0"
+        }
+    ],
+    "mainTemplate": {
+        "parameters": [
+            "payload"
+        ],
+        "items": [
+            {
+                "type": "Container",
+                "height": "100vh",
+                "width": "100vw",
+                "paddingTop": "@spacingSmall",
+                "bind": [
+                    {
+                        "name": "sliderThumbPosition",
+                        "value": 0
+                    },
+                    {
+                        "name": "videoProgressValue",
+                        "type": "number",
+                        "value": 0
+                    },
+                    {
+                        "name": "videoTotalValue",
+                        "type": "number",
+                        "value": 0
+                    }
+                ],
+                "items": [
+                    {
+                        "type": "AlexaBackground"
+                    },
+                    {
+                        "autoplay": true,
+                        "audioTrack": "foreground",
+                        "onPlay": [
+                            {
+                                "type": "SetValue",
+                                "property": "videoTotalValue",
+                                "value": "${event.duration}"
+                            }
+                        ],
+                        "onTrackUpdate": [
+                            {
+                                "type": "SetValue",
+                                "property": "videoTotalValue",
+                                "value": "${event.duration}"
+                            }
+                        ],
+                        "onTimeUpdate": [
+                            {
+                                "type": "SetValue",
+                                "property": "videoProgressValue",
+                                "value": "${event.currentTime}"
+                            },
+                            {
+                                "type": "SetValue",
+                                "componentId": "slider",
+                                "property": "progressValue",
+                                "value": "${videoProgressValue}"
+                            },
+                            {
+                                "type": "SetValue",
+                                "property": "videoTotalValue",
+                                "value": "${event.duration}"
+                            }
+                        ],
+                        "onTrackReady": [
+                            {
+                                "type": "SetValue",
+                                "property": "videoTotalValue",
+                                "value": "${event.duration}"
+                            }
+                        ],
+                        "onTrackFail": [
+                            {
+                                "type": "SetValue",
+                                "property": "videoTotalValue",
+                                "value": "0"
+                            }
+                        ],
+                        "source": [
+                            "${payload.videoPlayerData.properties.url}"
+                        ],
+                        "type": "Video",
+                        "id": "videoPlayerId",
+                        "width": "70vw",
+                        "height": "100%",
+                        "alignSelf": "center",
+                        "shrink": 1
+                    },
+                    {
+                        "type": "Container",
+                        "alignItems": "center",
+                        "item": [
+                            {
+                                "type": "AlexaSlider",
+                                "id": "slider",
+                                "progressValue": "${videoProgressValue}",
+                                "totalValue": "${videoTotalValue}",
+                                "positionPropertyName": "sliderThumbPosition",
+                                "metadataDisplayed": true,
+                                "metadataPosition": "above_right",
+                                "width": "75vw",
+                                "paddingBottom": "90dp",
+                                "onUpCommand": [
+                                    {
+                                        "type": "SetValue",
+                                        "componentId": "debugText",
+                                        "property": "text",
+                                        "value": "${sliderThumbPosition - videoProgressValue}"
+                                    },
+                                    {
+                                        "type": "ControlMedia",
+                                        "componentId": "videoPlayerId",
+                                        "command": "seek",
+                                        "value": "${sliderThumbPosition - videoProgressValue}"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "AlexaTransportControls",
+                                "mediaComponentId": "videoPlayerId",
+                                "playPauseToggleButtonId": "playPauseToggleButtonId",
+                                "primaryControlSize": "70dp",
+                                "secondaryControlSize": "60dp",
+                                "autoplay": true,
+                                "position": "absolute",
+                                "bottom": "10dp"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

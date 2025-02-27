@@ -1,0 +1,73 @@
+{
+    "COMPANIES": {
+        "INSIGNIA": {
+            "CEO": "Tan Yinglan",
+            "FOUNDER": ["Tan Yinglan"],
+            "INFO": "Insignia Ventures Partners is an early-stage technology venture capital firm partnering with unstoppable founders to build great companies in Southeast Asia. Portfolio companies include Goto, Appier, Carro, Ajaib, Shipper, Tonik, Flip, Payfazz, Super and many other technology market leaders. We partner early with founders and support them from seed through growth stage as their companies create meaningful impact for millions of people in Southeast Asia and beyond. Our team of investment and operating professionals bring together decades of experience and proprietary networks to equip our founders with the tools they need for growth. Insignia Ventures Partners manages capital from premier institutional investors including sovereign wealth funds, foundations, university endowments and renowned family offices from Asia, Europe and North America."
+        },
+        "GOTO": {
+            "CEO": "Andre Soelistyo",
+            "FOUNDER": ["Andre Soelistyo", "Patrick Cao"],
+            "INFO": "GoTo is the largest technology group in Indonesia, combining on-demand, e-commerce and financial services through the Gojek, Tokopedia and GoTo Financial brands. It is the first platform in Southeast Asia to host these three essential use cases in one ecosystem, capturing a majority of Indonesian consumer household expenditure."
+        },
+        "APPIER": {
+            "CEO": "Chih-Han Yu",
+            "FOUNDER": ["Chih Han Yu", "Winnie Lee"],
+            "INFO": "Appier is a technology company which enables businesses with artificial intelligence to grow and succeed based on data-driven decisions. We are a technology partner to some of the world’s leading brands, helping them effectively implement and leverage AI to drive business growth. Our suite of enterprise-grade products helps organizations maximize data, uncover hidden insights and personalize customer outreach. Appier was established in 2012 by a passionate team of experts in AI, data analysis, distributed systems and marketing. Appier now extends across 15 offices in 13 markets in Asia and Europe with more than 400 employees. It has raised US$162 million in funding, and has been recognized as a leader in AI by Fortune Magazine and others. "
+        },
+        "TONIK": {
+            "CEO": "Greg Krasnov",
+            "FOUNDER": ["Greg Krasnov"],
+            "INFO": "Tonik is a transformative digital bank on a mission to revolutionize the way money works in Southeast Asia. Tonik is officially the Philippines’ first neobank to secure a digital bank license from the Bangko Sentral ng Pilipinas (BSP). Deposits are insured by the Philippine Deposit Insurance Corporation (PDIC)."
+        },
+        "CARRO": {
+            "CEO": "Aaron Tan",
+            "FOUNDER": ["Aaron Tan"],
+            "INFO": "Carro is an automotive marketplace that offers a full-stack service for all aspects of car ownership. By offering a trustworthy and transparent experience, Carro challenges the traditional way of buying and selling cars through a proprietary pricing algorithm."
+        },
+        "SHIPPER": {
+            "CEO": "Phil Opamuratawongse",
+            "FOUNDER": ["Phil Opamuratawongse", "Budi Handoko"],
+            "INFO": "Shipper is one of the fastest-growing tech company in Indonesia. In just few years, we have built a vast network of fulfilment centers and partnered with hundreds of local delivery companies across the country. We aim to digitize Indonesian logistics and enable cost-efficiencies at nationwide scale. Shipper is a Series B funded company backed by DST Global partners, Sequoia Capital India, Prosus Ventures, Floodgate, Lightspeed, Insignia Ventures, AC Ventures and Y Combinator."
+        },
+        "AJAIB": {
+            "CEO": "Anderson Sumarli",
+            "FOUNDER": ["Anderson Sumarli", "Yada Piyajomkwan"],
+            "INFO": "Ajaib is an online brokerage that allows Indonesians to buy and sell stocks, ETFs and mutual funds. We are Indonesia's leading financial technology platform driven by a mission to educate the importance of investing for the future."
+        },
+        "FLIP": {
+            "CEO": "Rafi Putra Arriyan",
+            "FOUNDER": ["Luqman Sungkar", "Ginanjar Ibnu Solikhin", "Rafi Putra Arriyan"],
+            "INFO": "Flip helps people send money securely without any transaction fee. Individual users are able to use Flip to send money across 14 biggest banks in Indonesia with zero cost. Meanwhile, business users can send money swiftly, securely, and with lower cost to more than 100 banks across Indonesia."
+        },
+        "SUPER": {
+            "CEO": "Steven Wongsoredjo",
+            "FOUNDER": ["Steven Wongsoredjo", "Michael Rendy"],
+            "INFO": "Super is a social commerce platform targeting the over 240 million Indonesians who live in second-tier and third-tier cities in Indonesia. Super’s group buying model allows community leaders to become retailers in their communities and aggregates demand from households and MSMEs."
+        },
+        "PINHOME": {
+            "CEO": "Dayu Dara Permata",
+            "FOUNDER": ["Dayu Dara Permata", "Ahmed Aljunied"],
+            "INFO": "Pinhome utilizes the best technology to ensure the property sale, purchase, and rental transactions through our platform become hassle-free, efficient, and transparent.Our mission is to remove the barriers that buyers and owners often experience when making property transactions by providing the best possible experience.We are a team of 200+ people with amazing backgrounds all across the functions. We called ourselves Pinfams and brace Customer Love, Impact Orientation, Entrepreneurial Mindset, Execution Excellence, and People Leadership as our core values."
+        },
+        "PAYFAZZ": {
+            "CEO": "Hendra Kwik",
+            "FOUNDER": ["Hendra Kwik", "Ricky Winata", "Jefriyanto"],
+            "INFO": "PAYFAZZ is a financial technology startup from Indonesia that was established in 2016. PAYFAZZ creates a distributed network of bank agents in Indonesia, who performs financial transactions on behalf of unbanked and underbanked customers."
+        }
+    },
+    "PEOPLE": {
+        "Tan Yinglan": "Tan Yinglan is the CEO and Founding Managing Partner at Insignia Ventures Partners. Insignia Ventures Partners is an early stage technology venture fund focusing on Southeast Asia started in 2017 and manages capital from premier institutional investors including sovereign wealth funds, foundations, university endowments and renowned family offices from Asia, Europe and North America.",
+        "Andre Soelistyo": "Andre Soelistyo is the Co-CEO of Gojek Group and sets the overall strategic direction for the company. Since joining Gojek in 2015, he has played a pivotal role in laying a solid foundation for Gojek’s rapid growth and long-term business sustainability. He has overseen over US$4 billion of fundraising, which attracted key investors such as Google, Tencent, Astra, KKR and Warburg Pincus.",
+        "Chih-Han Yu": "Chih-Han Yu is CEO and co¬founder of Appier, a technology company for businesses to use artificial intelligence to grow and succeed in a cross screen world. Under his leadership, Appier has grown from a five-person startup to a rapidly growing company with employees throughout 11 countries in Asia. Appier has raised 30 million USD in total funding and is the first investment Sequoia Capital made in Southeastern Asia.",
+        "Greg Krasnov": "Greg is the Founder and CEO of Tonik, the first neobank in the Philippines. Tonik is backed by major international Venture Capital investors, including Sequoia Capital and Point72. Prior to Tonik, Greg co-founded and chaired multiple other successful Asian fintech companies (FORUM, Credolab, FLOW, Solarhome, AsiaKredit) and a consumer bank in Emerging Europe (Platinum Bank).",
+        "Aaron Tan": "Aaron Tan, a teenage prodigy in Singapore, was running his first tech startup at 13. He then went on to set up two more companies before turning 21. Today he is the CEO of Singapore-based Carro, an automotive marketplace and services portal that started from his love of trading cars, not driving them. ",
+        "Phil Opamuratawongse": "Phil Opamuratawongse, a former McKinsey consultant and venture capitalist, cofounded Indonesian logistics-service startup Shipper with Budi Handoko. Their platform helps more than 25,000 small and midsize online sellers overcome logistical hurdles in getting orders to customers nationwide. Shipper graduated from the prestigious Silicon Valley accelerator Y Combinator in 2019 and has raised $5 million in financing from top-tier investors.",
+        "Anderson Sumarli": "Anderson Sumarli is the CEO and co-founder of Ajaib, an online investment advisory startup. Anderson worked at JP Morgan and IBM before joining the Boston Consulting Group. He holds an MBA from the Stanford Graduate School of Business, as well as a bachelor’s in finance from Cornell University. He met Ajaib's two other co-founders during his time at these institutions.",
+        "Rafi Putra Arriyan": "Rafi Putra Arriyan, the CEO and co-founder of Flip, started the company after he and his co-founders spotted an inefficiency in the interbank fund transfers segment in Indonesia. Ari holds a Bachelor's Degree in Computer Science from Universitas Indonesia, one of the most prestigious universities in Indonesia.",
+        "Steven Wongsoredjo": "After graduating from Columbia University and returning to Indonesia, Steven Wongsoredjo started Nusantara Technology, a millennial-focused digital media and marketing startup. Its product line includes Keepo.me, YuKepo.com and PlayingViral, which have grown to over 35 million monthly visits and one million followers. Nusantara then became the first Indonesian media startup to be accepted to the Y Combinator program in Sillicon Valley",
+        "Dayu Dara Permata": "Dayu Dara is the CEO of Pinhome, an emerging proptech startup with the mission to revolutionize the real estate sector in SEA. Dara was previously SVP at PT. GO-JEK Indonesia responsible for Lifestyle and Commerce Product Group consists of GO-LIFE, GO-SHOP and GO-MART. She also spearheaded GO-JEK regional expansion to 100+ cities in Indonesia as well as driving implementation of key initiatives of growth for all GO-JEK products.",
+        "Hendra Kwik": "Hendra Kwik is an Indonesian entrepreneur working in the FinTech industry. He is the CEO and Co-founder of PAYFAZZ, a mobile application that serves as a platform for Indonesian citizens in rural areas to conduct financial transactions. It took three years from three childhood friends building an app to four hundred people building an ecosystem to reinvent financial access."
+    },
+    "INTRO": "Welcome, my name is Insignia Bot, I'm here to tell you more about Insignia Ventures Partners"
+}

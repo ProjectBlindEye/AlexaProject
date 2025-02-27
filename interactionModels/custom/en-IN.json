@@ -1,0 +1,198 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "company",
+              "type": "company"
+            }
+          ],
+          "name": "CompanyInfoIntent",
+          "samples": [
+            "introduce me to {company} ",
+            "can i get more information about {company} ",
+            "tell me more about {company}",
+            "introduce {company} ",
+            "what is {company}",
+            "tell me about {company}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "company",
+              "type": "company"
+            }
+          ],
+          "name": "CompanyCEOIntent",
+          "samples": [
+            "tell me the name of the c. e. o. of {company}",
+            "give me the name of the c. e. o. of {company}",
+            "who is the c. e. o. of {company}",
+            "what is the name of the c. e. o. of {company}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "company",
+              "type": "company"
+            }
+          ],
+          "name": "CompanyFounderIntent",
+          "samples": [
+            "what is the name of the founder of {company}",
+            "give me the name of the founder of {company}",
+            "tell me the name of the founder of {company}",
+            "who was the founder of {company}",
+            "who is the founder of {company}",
+            "who were the people who founded {company}",
+            "who founded {company}",
+            "who are the founders of {company}",
+            "who were the founders of {company}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "company",
+              "type": "company"
+            }
+          ],
+          "name": "VideoIntent",
+          "samples": [
+            "play a video on {company}",
+            "play a video of {company}",
+            "play a video from {company}",
+            "play the video from {company}",
+            "play the video of {company}",
+            "play the video on {company}",
+            "play a {company} video",
+            "play the {company} video"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "InsigniaNewsIntent",
+          "samples": [
+            "can i get the latest news on insignia",
+            "can i get news on insignia",
+            "give me more information on insignia news",
+            "tell me the news on insignia",
+            "tell me the news from insignia",
+            "what is the news on insignia",
+            "what is the latest news from insignia",
+            "What is the current news on insignia"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "NewsIntent",
+          "samples": [
+            "tell me about the news"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "TestIntent",
+          "samples": [
+            "are you real"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Insignia"
+              }
+            },
+            {
+              "name": {
+                "value": "Payfazz"
+              }
+            },
+            {
+              "name": {
+                "value": "Pinhome"
+              }
+            },
+            {
+              "name": {
+                "value": "Super"
+              }
+            },
+            {
+              "name": {
+                "value": "Flip"
+              }
+            },
+            {
+              "name": {
+                "value": "Ajaib"
+              }
+            },
+            {
+              "name": {
+                "value": "Shipper"
+              }
+            },
+            {
+              "name": {
+                "value": "Carro"
+              }
+            },
+            {
+              "name": {
+                "value": "Tonik"
+              }
+            },
+            {
+              "name": {
+                "value": "Appier"
+              }
+            },
+            {
+              "name": {
+                "value": "Goto"
+              }
+            }
+          ],
+          "name": "company"
+        }
+      ],
+      "invocationName": "insignia bot"
+    }
+  }
+}
