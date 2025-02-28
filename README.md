@@ -1,6 +1,6 @@
 # Alexa Office Bot
 
-Alexa skill for an Alexa node stationed in Insignia VC office's own conference room
+Alexa skill for an Alexa node stationed in Insignia VC office's own conference room. This was an internship project done by Project Blind Eye under Insignia Ventures Partners.
 
 
 ## Bot Features
